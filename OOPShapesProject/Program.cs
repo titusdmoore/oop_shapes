@@ -14,6 +14,16 @@ namespace OOPShapesProject {
 
             perim = rect1.CalcPerim();
             Console.WriteLine(perim);
+
+            var square1 = new Square(5);
+            perim = square1.CalcPerim();
+            Console.WriteLine(perim);
+
+            int area = rect1.CalcArea();
+            Console.WriteLine($"{area} rectangle");
+
+            area = square1.CalcArea();
+            Console.WriteLine(area);
             
         }
     }
